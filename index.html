@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061426">
+  <meta name="description" content="Veltrix Cloud — premium game server, VPS and dedicated server hosting.">
+  <title>Veltrix Cloud — Premium Server Hosting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="snow"></canvas>
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Veltrix Cloud home">
+      <span class="brand-mark">V</span>
+      <span><b>VELTRIX</b><small>CLOUD</small></span>
+    </a>
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#servers">Servers</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#support">Support</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="discord-icon" id="discordNav" href="#" target="_blank" rel="noopener">Discord</a>
+      <a class="btn ghost" href="#pricing">Login</a>
+      <a class="btn primary" href="#pricing">Get Started</a>
+    </div>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">✦ NEXT-GEN SERVER HOSTING</div>
+        <h1>Your World,<br><span>Our Servers.</span></h1>
+        <p>High-performance game servers, VPS and more — built for creators, gamers and communities. Experience speed, reliability and support with Veltrix Cloud.</p>
+        <div class="hero-actions">
+          <a class="btn primary big buy" href="#">Get Started →</a>
+          <a class="btn ghost big" href="#pricing">View Plans</a>
+        </div>
+        <div class="trust-row">
+          <span>⚡ Instant Setup</span><span>◈ DDoS Protection</span><span>◉ 99.9% Uptime</span><span>◉ 24/7 Support</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit"></div>
+        <div class="server-globe">
+          <div class="server-rack">V</div>
+        </div>
+        <div class="cloud-label">VELTRIX<br><small>CLOUD</small></div>
+      </div>
+    </section>
+
+    <section class="stats glass">
+      <div><strong>50K+</strong><span>Happy Customers</span></div>
+      <div><strong>1M+</strong><span>Servers Deployed</span></div>
+      <div><strong>99.9%</strong><span>Uptime Guarantee</span></div>
+      <div><strong>24/7</strong><span>Expert Support</span></div>
+    </section>
+
+    <section id="servers" class="section">
+      <div class="section-head">
+        <div><label>— OUR SERVERS</label><h2>Powerful Servers for <span>Every Need</span></h2><p>From Minecraft to VPS, choose the perfect server for your projects, communities and ideas.</p></div>
+        <a class="btn ghost" href="#pricing">Explore All Servers →</a>
+      </div>
+      <div class="server-grid">
+        <article class="server-card minecraft"><div class="card-art">⛏️</div><div><h3>Minecraft Servers</h3><p>Survival, Skyblock, Minigames & more.</p><a class="mini buy" href="#">View Plans →</a></div></article>
+        <article class="server-card vps"><div class="card-art">☁️</div><div><h3>VPS Hosting</h3><p>Full root access. Complete control.</p><a class="mini buy" href="#">View Plans →</a></div></article>
+        <article class="server-card game"><div class="card-art">🎮</div><div><h3>Game Servers</h3><p>CS2, Rust, ARK, FiveM & more.</p><a class="mini buy" href="#">View Plans →</a></div></article>
+      </div>
+    </section>
+
+    <section id="features" class="feature-grid">
+      <article><b>◈</b><h3>DDoS Protection</h3><p>Keep your servers safe from attacks and downtime.</p></article>
+      <article><b>◉</b><h3>99.9% Uptime</h3><p>Maximum reliability for your projects and communities.</p></article>
+      <article><b>ϟ</b><h3>Instant Setup</h3><p>Get your server online in minutes, not hours.</p></article>
+      <article><b>◉</b><h3>24/7 Support</h3><p>Real humans. Always here whenever you need us.</p></article>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="section-head">
+        <div><label>— OUR PRICING</label><h2>Choose Your Perfect Plan</h2><p>Demo prices below — replace them with your actual Veltrix Cloud plans.</p></div>
+        <div class="switch"><button class="active">Monthly</button><button>Lifetime</button></div>
+      </div>
+      <div class="price-grid">
+        <article class="price-card"><div class="price-image">🌎</div><h3>Minecraft</h3><small>Starting at</small><strong>₹99<em>/month</em></strong><ul><li>2GB – 16GB RAM</li><li>SSD Storage</li><li>Instant Setup</li><li>DDoS Protection</li></ul><a class="btn primary buy" href="#">View Plans →</a></article>
+        <article class="price-card"><div class="price-image">☁️</div><h3>VPS Hosting</h3><small>Starting at</small><strong>₹399<em>/month</em></strong><ul><li>1GB – 64GB RAM</li><li>Full Root Access</li><li>SSD Storage</li><li>DDoS Protection</li></ul><a class="btn primary buy" href="#">View Plans →</a></article>
+        <article class="price-card"><div class="price-image">🎮</div><h3>Game Servers</h3><small>Starting at</small><strong>₹149<em>/month</em></strong><ul><li>CS2, Rust, ARK, FiveM & more</li><li>Low Latency</li><li>High Performance</li><li>DDoS Protection</li></ul><a class="btn primary buy" href="#">View Plans →</a></article>
+        <article class="price-card"><div class="price-image">▦</div><h3>Dedicated Server</h3><small>Starting at</small><strong>₹2,499<em>/month</em></strong><ul><li>High CPU & RAM</li><li>NVMe SSD</li><li>Full Control</li><li>DDoS Protection</li></ul><a class="btn primary buy" href="#">View Plans →</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="cta glass">
+      <div><label>READY TO GET STARTED?</label><h2>Your Next Server is Just a Click Away</h2><p>Join Veltrix Cloud and get your server online with a simple Discord order.</p></div>
+      <a class="btn primary big buy" href="#">Get Started Now →</a>
+    </section>
+  </main>
+
+  <footer id="support">
+    <div class="brand"><span class="brand-mark">V</span><span><b>VELTRIX</b><small>CLOUD</small></span></div>
+    <div class="footer-links"><a href="#top">Home</a><a href="#servers">Servers</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a class="buy" href="#">Discord</a></div>
+    <p>© 2026 Veltrix Cloud. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
